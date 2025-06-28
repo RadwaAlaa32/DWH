@@ -1,0 +1,29 @@
+In this project, I worked on transforming a large operational database into a Data Warehouse to support analytics and decision-making.
+
+🔹 I started by designing an analytical data model (Star Schema) that included:
+
+Dimension tables such as: Dim_Customer, Dim_Product, Dim_Date, Dim_SalesTerritory
+
+And a Fact table: Fact_Sales for connecting and analyzing sales data
+
+🔹 I used SSIS to transfer data from the original OLTP database to the new Data Warehouse through a complete ETL process, making sure to:
+
+Clean the data
+
+Transform it appropriately
+
+And load it efficiently into the new tables
+
+📌 One of my main tasks was creating the Dim_Customer table.
+
+🛠️ Tools used:
+
+Microsoft SQL Server
+
+SSIS
+
+T-SQL
+
+Star Schema Modeling
+
+💡 This project enhanced my experience in data analysis, especially in designing analytical databases and implementing ETL processes in a practical way.
